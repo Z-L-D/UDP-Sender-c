@@ -11,7 +11,7 @@ int main(void)
     WSADATA wsaData;
     WSAStartup(MAKEWORD(2, 2), &wsaData);
 
-    const char* command = "this is a test";
+    const char* command = "Hello from C";
     PCWSTR address = L"127.0.0.1";
     short port = 5500;    
 
